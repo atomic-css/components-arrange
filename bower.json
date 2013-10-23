@@ -1,0 +1,20 @@
+{
+  "name": "atomic-css-components-arrange",
+  "version": "1.0.0",
+  "homepage": "https://github.com/atomic-css/components-arrange",
+  "authors": [
+    "Lukáš Mladý",
+    "Nicolas Gallagher"
+  ],
+  "description": "Arrange component",
+  "main": [
+    "arrange.css",
+    "arrange.gutter.css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".*",
+    "CHANGELOG.md",
+    "component.json"
+  ]
+}

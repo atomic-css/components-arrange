@@ -1,0 +1,47 @@
+/* ==========================================================================
+   Arrange extension: gutter
+   ========================================================================== */
+
+/**
+ * Modifiers for creating horizontal gutter between arrange items.
+ *
+ * .Arrange--gutter<Size>
+ *
+ * <Size> can be:
+ *   Small
+ *   Medium
+ *   Large
+ */
+
+/* Component modifiers
+   ========================================================================== */
+
+/* Only horizontal gutter makes sense */
+
+.Arrange--gutterSmall > .Arrange-sizeFit,
+.Arrange--gutterSmall > .Arrange-sizeFill {
+  padding-left: 5px;
+}
+
+.Arrange--gutterMedium > .Arrange-sizeFit,
+.Arrange--gutterMedium > .Arrange-sizeFill {
+  padding-left: 10px;
+}
+
+.Arrange--gutterLarge > .Arrange-sizeFit,
+.Arrange--gutterLarge > .Arrange-sizeFill {
+  padding-left: 20px;
+}
+
+/**
+ * Reset left padding for the first child
+ */
+
+.Arrange--gutterSmall > .Arrange-sizeFit:first-child,
+.Arrange--gutterSmall > .Arrange-sizeFill:first-child,
+.Arrange--gutterMedium > .Arrange-sizeFit:first-child,
+.Arrange--gutterMedium > .Arrange-sizeFill:first-child,
+.Arrange--gutterLarge > .Arrange-sizeFit:first-child,
+.Arrange--gutterLarge > .Arrange-sizeFill:first-child {
+  padding-left: 0;
+}

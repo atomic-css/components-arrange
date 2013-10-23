@@ -1,0 +1,12 @@
+{
+  "name": "components-arrange",
+  "repo": "atomic-css/components-arrange",
+  "description": "Arrange component",
+  "version": "1.0.0",
+  "styles": [
+    "arrange.css",
+    "arrange.gutter.css"
+  ],
+  "author": "Lukáš Mladý",
+  "license": "MIT"
+}
